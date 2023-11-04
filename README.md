@@ -33,3 +33,5 @@ The required files are:
 ```
 ansible-playbook -i vms-to-deploy deploy-kubernetes-prod.yml
 ```
+
+Enjoy! :)
