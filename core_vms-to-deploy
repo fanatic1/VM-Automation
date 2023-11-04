@@ -1,0 +1,15 @@
+[prod-k8s-master]
+#atc-cr-rabbitmq.mcloud.entsvcs.com hostname='atc-cr-rabbitmq' deploy_vsphere_datastore='PRF_DSCL_001' guest_network='ClientVlan-468' guest_custom_ip='15.163.133.152' guest_notes='Master #1'
+tul-dca deploy_vsphere_datastore='PRF_DSCL_001' guest_network='dvVLAN2' guest_custom_ip='138.35.177.146' guest_notes='Rebuild - someone delete it before #1'
+#atc-cr-rabbitmq.mcloud.entsvcs.com deploy_vsphere_datastore='PRF_DSCL_002' guest_network='ClientVlan-468' guest_custom_ip='15.163.133.152' guest_notes='Master #1'
+
+#master1 deploy_vsphere_datastore='PRFS_CL001' guest_network='VM Network' guest_custom_ip='192.168.0.77' guest_notes='Master #1'
+#prod-k8s-master02 deploy_vsphere_datastore='NFS-PROD02' guest_custom_ip='192.168.5.78' guest_notes='Master #2'
+#prod-k8s-master03 deploy_vsphere_datastore='NFS-PROD01' guest_custom_ip='192.168.5.79' guest_notes='Master #3'
+
+#[prod-k8s-workers]
+#prod-k8s-worker01 deploy_vsphere_datastore='ECS_001' guest_custom_ip='192.168.5.81' guest_notes='Worker #01'
+#prod-k8s-worker02 deploy_vsphere_datastore='NFS-PROD02' guest_custom_ip='192.168.5.82' guest_notes='Worker #02'
+#prod-k8s-worker03 deploy_vsphere_datastore='NFS-PROD01' guest_custom_ip='192.168.5.83' guest_notes='Worker #03'
+#prod-k8s-worker04 deploy_vsphere_datastore='NFS-PROD02' guest_custom_ip='192.168.5.84' guest_notes='Worker #04'
+#prod-k8s-worker05 deploy_vsphere_datastore='NFS-PROD01' guest_custom_ip='192.168.5.85' guest_notes='Worker #05'

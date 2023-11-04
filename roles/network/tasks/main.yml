@@ -1,0 +1,4 @@
+---
+# NW GW
+- name: Setup networking (general)
+  action: template owner=root group=root mode=644 src=../../../templates/etc/sysconfig/network dest=/etc/sysconfig/network

@@ -1,0 +1,2 @@
+[prod-k8s-master]
+swa-cr-postgres1.mcloud.entsvcs.com     hostname='swa-cr-postgres1'     guest_custom_ip='15.189.211.103'    guest_gateway='15.189.211.65'   guest_memory='65536'    deploy_vsphere_datastore='PRF_DSCL_001'     guest_network='ClientVlan-469'

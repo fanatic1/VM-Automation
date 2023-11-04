@@ -1,0 +1,26 @@
+# Infrastructure
+# - Defines the vCenter / vSphere environment
+#deploy_vsphere_host: 'atc-cr-vcva.mcloud.entsvcs.com'
+deploy_vsphere_host: 'localhost'
+deploy_vsphere_user: 'sec\rkaiser8'
+deploy_vsphere_password: 'vCenterPassword'
+deploy_vsphere_datacenter: 'CORE-DC'
+deploy_vsphere_folder: '/NEW-PMI-BUILD'
+#deploy_vsphere_folder: '/ATC-CR-CORE'
+deploy_vsphere_cluster: 'CORE-Cluster'
+ 
+# Guest
+# - Describes virtual machine common options
+#guest_network: 'VM Network'
+guest_netmask: '255.255.255.192'
+#guest_gateway: '15.163.133.129'
+guest_dns_server_1: '138.35.151.51'
+guest_dns_server_2: '138.35.151.115'
+guest_domain_name: 'mcloud.entsvcs.com'
+guest_id: 'rhel6_64Guest'
+#guest_memory: '32768'
+guest_vcpu: '16'
+#guest_template: 'mmi-rhel7.2-mie-template-4q2016'
+guest_template: 'mmi-rhel7.3-mie-template-2q2017.ova'
+#ovf: /absolute/path/to/template/mytemplate.ova
+hw_interfaces: 'eth0'
