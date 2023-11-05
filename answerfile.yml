@@ -1,7 +1,7 @@
 # Infrastructure
 # - Defines the vCenter / vSphere environment
 #deploy_vsphere_host: 'atc-cr-vcva.mcloud.entsvcs.com'
-deploy_vsphere_host: 'localhost'
+deploy_vsphere_host: '192.168.0.51'
 deploy_vsphere_user: 'administrator@vsphere.local'
 deploy_vsphere_password: 'vCenterPassword'
 deploy_vsphere_datacenter: 'BO-LAB'
