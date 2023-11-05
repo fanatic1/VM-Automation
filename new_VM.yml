@@ -1,0 +1,13 @@
+Deploy a guest from a template
+- vsphere_guest:
+    vcenter_hostname: 192.168.0.51
+    username: administrator@vsphere.local
+    password: Macinka@123
+    guest: newvm001
+    from_template: yes
+    template_src: debian11
+    cluster: Cluster
+    resource_pool: 
+    vm_extra_config:
+      folder: NEW-PMI-BUILD
+  delegate_to: localhost
